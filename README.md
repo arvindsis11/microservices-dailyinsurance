@@ -78,5 +78,10 @@ https://github.com/Java-Techie-jt/spring-boot-crud-example
             <scope>runtime</scope>
         </dependency>
 ```
+```shell
+docker build -t arvindsis35/policy-microservice.jar:latest -f Dockerfile .
+docker push arvindsis35/policy-microservice.jar
+docker run -p 8080:8080 arvindsis35/policy-microservice.jar
+```
 ## License
 [Github](https://github.com/arvindsis11)
